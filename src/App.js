@@ -1,16 +1,14 @@
-import React from 'react';
-import Navbar from './components/Navbar/Navbar';
+import React, { Component } from 'react';
+import Header from './components/Header/Header';
 import Landing from './components/Landing/Landing';
 import AmazingProduct from './components/AmazingProduct/AmazingProduct';
 
 
-class App extends React.Component {
+class App extends Component {
   render() {
     return (
       <>
-        <Navbar />
-        <Landing />
-        <AmazingProduct />
+        <Header />
       </>
     )
   }
